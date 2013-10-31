@@ -1,0 +1,24 @@
+channels:
+    'mobile':
+        'code':    'mobile'
+        'label':   'Mobile'
+        'tree':    master
+        'locales':
+            - 'fr_FR'
+            - 'de_DE'
+            - 'en_US'
+        'currencies':
+            - 'USD'
+            - 'EUR'
+
+    'print':
+        'code':    'print'
+        'label':   'Print'
+        'tree':    master
+        'locales':
+            - 'fr_FR'
+            - 'de_DE'
+            - 'en_US'
+        'currencies':
+            - 'USD'
+            - 'EUR'

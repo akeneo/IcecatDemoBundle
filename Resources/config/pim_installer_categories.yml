@@ -1,0 +1,7 @@
+categories:
+    master:
+        code:  master
+        label: Master catalog
+    vendors:
+        code:  vendors
+        label: Vendors

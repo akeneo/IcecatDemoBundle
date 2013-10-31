@@ -1,0 +1,101 @@
+code;parent;dynamic;label-en_US;label-de_DE;label-fr_FR
+tvs_projectors;master;;"TVs and projectors";"TVs und projectoren";"Téléviseurs et projecteurs"
+pc_monitors;tvs_projectors;;"PC Monitors";"PC Monitoren";"Moniteurs PC"
+led_tvs;tvs_projectors;;"LED TVs";"TVs LED";"Télévisions LED"
+cameras;master;;Cameras;Cameras;Caméras
+digital_cameras;cameras;;"Digital cameras";"Digitale Kameras";"Caméras digitales"
+camcorders;cameras;;Camcorders;"Digitale Videokameras";"Caméscopes numériques"
+webcams;cameras;;Webcams;Webcams;Webcams
+audio_video;master;;"Audio and Video";"Audio und Video";"Audio et Video"
+headphones;audio_video;;Headphones;Kopfhörer;"Casques audio"
+mp3_players;audio_video;;"MP3 players";"MP3/MP4 Player";"Lecteurs et enregistreurs MP3"
+loudspeakers;audio_video;;Loudspeakers;Lautsprecher;Hauts-parleurs
+print_scan;master;;"Print and scan";"Drucken und Scannen";"Imprimantes et scanners"
+multifunctionals;print_scan;;Multifunctionals;Multifunktionsgeräte;Multifonctions
+laser_led_printers;print_scan;;"Laser and LED printers";Laserdrucker;"Imprimantes laser et LED"
+scanners;print_scan;;Scanners;Scanners;Scanners
+3go;vendors;;3GO;3GO;3GO
+3m;vendors;;3M;3M;3M
+a4tech;vendors;;A4Tech;A4Tech;A4Tech
+aoc;vendors;;AOC;AOC;AOC
+asus;vendors;;ASUS;ASUS;ASUS
+acer;vendors;;Acer;Acer;Acer
+adapt;vendors;;Adapt;Adapt;Adapt
+approx;vendors;;Approx;Approx;Approx
+avision;vendors;;Avision;Avision;Avision
+belkin;vendors;;Belkin;Belkin;Belkin
+brother;vendors;;Brother;Brother;Brother
+canon;vendors;;Canon;Canon;Canon
+cisco;vendors;;Cisco;Cisco;Cisco
+conceptronic;vendors;;Conceptronic;Conceptronic;Conceptronic
+d_link;vendors;;D-Link;D-Link;D-Link
+dell;vendors;;DELL;DELL;DELL
+dymo;vendors;;DYMO;DYMO;DYMO
+devolo;vendors;;Devolo;Devolo;Devolo
+dicota;vendors;;Dicota;Dicota;Dicota
+eminent;vendors;;Eminent;Eminent;Eminent
+emtec;vendors;;Emtec;Emtec;Emtec
+ewent;vendors;;Ewent;Ewent;Ewent
+fujifilm;vendors;;Fujifilm;Fujifilm;Fujifilm
+fujitsu;vendors;;Fujitsu;Fujitsu;Fujitsu
+g_cube;vendors;;G-Cube;G-Cube;G-Cube
+gear4;vendors;;GEAR4;GEAR4;GEAR4
+gigabyte;vendors;;Gigabyte;Gigabyte;Gigabyte
+hp;vendors;;HP;HP;HP
+hamlet;vendors;;Hamlet;Hamlet;Hamlet
+hiper;vendors;;Hiper;Hiper;Hiper
+ibm;vendors;;IBM;IBM;IBM
+icidu;vendors;;ICIDU;ICIDU;ICIDU
+ion;vendors;;ION;ION;ION
+ion_audio;vendors;;"ION Audio";"ION Audio";"ION Audio"
+kensington;vendors;;Kensington;Kensington;Kensington
+kodak;vendors;;Kodak;Kodak;Kodak
+kyocera;vendors;;Kyocera;Kyocera;Kyocera
+lg;vendors;;LG;LG;LG
+lacie;vendors;;LaCie;LaCie;LaCie
+lenco;vendors;;Lenco;Lenco;Lenco
+lenovo;vendors;;Lenovo;Lenovo;Lenovo
+levelone;vendors;;LevelOne;LevelOne;LevelOne
+lexmark;vendors;;Lexmark;Lexmark;Lexmark
+logitech;vendors;;Logitech;Logitech;Logitech
+macally;vendors;;Macally;Macally;Macally
+magnavox;vendors;;Magnavox;Magnavox;Magnavox
+medion;vendors;;Medion;Medion;Medion
+microsoft;vendors;;Microsoft;Microsoft;Microsoft
+nec;vendors;;NEC;NEC;NEC
+ngs;vendors;;NGS;NGS;NGS
+noxon;vendors;;NOXON;NOXON;NOXON
+oki;vendors;;OKI;OKI;OKI
+ovislink;vendors;;OvisLink;OvisLink;OvisLink
+philips;vendors;;Philips;Philips;Philips
+razer;vendors;;Razer;Razer;Razer
+ricatech;vendors;;Ricatech;Ricatech;Ricatech
+ricoh;vendors;;Ricoh;Ricoh;Ricoh
+spcinternet;vendors;;SPCinternet;SPCinternet;SPCinternet
+salora;vendors;;Salora;Salora;Salora
+samsung;vendors;;Samsung;Samsung;Samsung
+sandberg;vendors;;Sandberg;Sandberg;Sandberg
+sitecom;vendors;;Sitecom;Sitecom;Sitecom
+sony;vendors;;Sony;Sony;Sony
+speed_link;vendors;;Speed-Link;Speed-Link;Speed-Link
+spire;vendors;;Spire;Spire;Spire
+sweex;vendors;;Sweex;Sweex;Sweex
+tdk;vendors;;TDK;TDK;TDK
+tacens;vendors;;Tacens;Tacens;Tacens
+targus;vendors;;Targus;Targus;Targus
+techly;vendors;;Techly;Techly;Techly
+teufel;vendors;;Teufel;Teufel;Teufel
+thrustmaster;vendors;;Thrustmaster;Thrustmaster;Thrustmaster
+toshiba;vendors;;Toshiba;Toshiba;Toshiba
+trust;vendors;;Trust;Trust;Trust
+v7;vendors;;V7;V7;V7
+value;vendors;;Value;Value;Value
+verbatim;vendors;;Verbatim;Verbatim;Verbatim
+viewsonic;vendors;;Viewsonic;Viewsonic;Viewsonic
+vogel_s;vendors;;Vogel's;Vogel's;Vogel's
+woxter;vendors;;Woxter;Woxter;Woxter
+xerox;vendors;;Xerox;Xerox;Xerox
+xtrememac;vendors;;XtremeMac;XtremeMac;XtremeMac
+yarvik;vendors;;Yarvik;Yarvik;Yarvik
+iiyama;vendors;;iiyama;iiyama;iiyama
+takems;vendors;;takeMS;takeMS;takeMS

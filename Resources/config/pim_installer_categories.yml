@@ -1,10 +1,12 @@
 categories:
     master:
+        code: categories
         labels:
             en_US: Master catalog
             fr_FR: Catalogue principal
             de_DE: Hauptkatalog
     sales:
+        code: sales
         labels:
             en_US: Sales catalog
             fr_FR: Catalogue des ventes

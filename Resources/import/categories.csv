@@ -1,107 +1,109 @@
-code;parent;dynamic;label-en_US;label-de_DE;label-fr_FR
-tvs_projectors;master;;"TVs and projectors";"TVs und projectoren";"Téléviseurs et projecteurs"
-pc_monitors;tvs_projectors;;"PC Monitors";"PC Monitoren";"Moniteurs PC"
-led_tvs;tvs_projectors;;"LED TVs";"TVs LED";"Télévisions LED"
-cameras;master;;Cameras;Cameras;Caméras
-digital_cameras;cameras;;"Digital cameras";"Digitale Kameras";"Caméras digitales"
-camcorders;cameras;;Camcorders;"Digitale Videokameras";"Caméscopes numériques"
-webcams;cameras;;Webcams;Webcams;Webcams
-audio_video;master;;"Audio and Video";"Audio und Video";"Audio et Video"
-headphones;audio_video;;Headphones;Kopfhörer;"Casques audio"
-mp3_players;audio_video;;"MP3 players";"MP3/MP4 Player";"Lecteurs et enregistreurs MP3"
-loudspeakers;audio_video;;Loudspeakers;Lautsprecher;Hauts-parleurs
-print_scan;master;;"Print and scan";"Drucken und Scannen";"Imprimantes et scanners"
-multifunctionals;print_scan;;Multifunctionals;Multifunktionsgeräte;Multifonctions
-laser_led_printers;print_scan;;"Laser and LED printers";Laserdrucker;"Imprimantes laser et LED"
-scanners;print_scan;;Scanners;Scanners;Scanners
-brands;sales;;Brands;Marken;Marques
-home_appliances;sales;;"Home appliances";Haushaltsgeräte;"Appareils ménagers"
-tvs_projectors_sales;home_appliances;;"TVs and projectors";"TVs und projectoren";"Téléviseurs et projecteurs"
-cameras_sales;home_appliances;;Cameras;Cameras;Caméras
-audio_video_sales;home_appliances;;"Audio and Video";"Audio und Video";"Audio et Video"
-print_scan_sales;home_appliances;;"Print and scan";"Drucken und Scannen";"Imprimantes et scanners"
-3go;brands;;3GO;3GO;3GO
-3m;brands;;3M;3M;3M
-a4tech;brands;;A4Tech;A4Tech;A4Tech
-aoc;brands;;AOC;AOC;AOC
-asus;brands;;ASUS;ASUS;ASUS
-acer;brands;;Acer;Acer;Acer
-adapt;brands;;Adapt;Adapt;Adapt
-approx;brands;;Approx;Approx;Approx
-avision;brands;;Avision;Avision;Avision
-belkin;brands;;Belkin;Belkin;Belkin
-brother;brands;;Brother;Brother;Brother
-canon;brands;;Canon;Canon;Canon
-cisco;brands;;Cisco;Cisco;Cisco
-conceptronic;brands;;Conceptronic;Conceptronic;Conceptronic
-d_link;brands;;D-Link;D-Link;D-Link
-dell;brands;;DELL;DELL;DELL
-dymo;brands;;DYMO;DYMO;DYMO
-devolo;brands;;Devolo;Devolo;Devolo
-dicota;brands;;Dicota;Dicota;Dicota
-eminent;brands;;Eminent;Eminent;Eminent
-emtec;brands;;Emtec;Emtec;Emtec
-ewent;brands;;Ewent;Ewent;Ewent
-fujifilm;brands;;Fujifilm;Fujifilm;Fujifilm
-fujitsu;brands;;Fujitsu;Fujitsu;Fujitsu
-g_cube;brands;;G-Cube;G-Cube;G-Cube
-gear4;brands;;GEAR4;GEAR4;GEAR4
-gigabyte;brands;;Gigabyte;Gigabyte;Gigabyte
-hp;brands;;HP;HP;HP
-hamlet;brands;;Hamlet;Hamlet;Hamlet
-hiper;brands;;Hiper;Hiper;Hiper
-ibm;brands;;IBM;IBM;IBM
-icidu;brands;;ICIDU;ICIDU;ICIDU
-ion;brands;;ION;ION;ION
-ion_audio;brands;;"ION Audio";"ION Audio";"ION Audio"
-kensington;brands;;Kensington;Kensington;Kensington
-kodak;brands;;Kodak;Kodak;Kodak
-kyocera;brands;;Kyocera;Kyocera;Kyocera
-lg;brands;;LG;LG;LG
-lacie;brands;;LaCie;LaCie;LaCie
-lenco;brands;;Lenco;Lenco;Lenco
-lenovo;brands;;Lenovo;Lenovo;Lenovo
-levelone;brands;;LevelOne;LevelOne;LevelOne
-lexmark;brands;;Lexmark;Lexmark;Lexmark
-logitech;brands;;Logitech;Logitech;Logitech
-macally;brands;;Macally;Macally;Macally
-magnavox;brands;;Magnavox;Magnavox;Magnavox
-medion;brands;;Medion;Medion;Medion
-microsoft;brands;;Microsoft;Microsoft;Microsoft
-nec;brands;;NEC;NEC;NEC
-ngs;brands;;NGS;NGS;NGS
-noxon;brands;;NOXON;NOXON;NOXON
-oki;brands;;OKI;OKI;OKI
-ovislink;brands;;OvisLink;OvisLink;OvisLink
-philips;brands;;Philips;Philips;Philips
-razer;brands;;Razer;Razer;Razer
-ricatech;brands;;Ricatech;Ricatech;Ricatech
-ricoh;brands;;Ricoh;Ricoh;Ricoh
-spcinternet;brands;;SPCinternet;SPCinternet;SPCinternet
-salora;brands;;Salora;Salora;Salora
-samsung;brands;;Samsung;Samsung;Samsung
-sandberg;brands;;Sandberg;Sandberg;Sandberg
-sitecom;brands;;Sitecom;Sitecom;Sitecom
-sony;brands;;Sony;Sony;Sony
-speed_link;brands;;Speed-Link;Speed-Link;Speed-Link
-spire;brands;;Spire;Spire;Spire
-sweex;brands;;Sweex;Sweex;Sweex
-tdk;brands;;TDK;TDK;TDK
-tacens;brands;;Tacens;Tacens;Tacens
-targus;brands;;Targus;Targus;Targus
-techly;brands;;Techly;Techly;Techly
-teufel;brands;;Teufel;Teufel;Teufel
-thrustmaster;brands;;Thrustmaster;Thrustmaster;Thrustmaster
-toshiba;brands;;Toshiba;Toshiba;Toshiba
-trust;brands;;Trust;Trust;Trust
-v7;brands;;V7;V7;V7
-value;brands;;Value;Value;Value
-verbatim;brands;;Verbatim;Verbatim;Verbatim
-viewsonic;brands;;Viewsonic;Viewsonic;Viewsonic
-vogel_s;brands;;Vogel's;Vogel's;Vogel's
-woxter;brands;;Woxter;Woxter;Woxter
-xerox;brands;;Xerox;Xerox;Xerox
-xtrememac;brands;;XtremeMac;XtremeMac;XtremeMac
-yarvik;brands;;Yarvik;Yarvik;Yarvik
-iiyama;brands;;iiyama;iiyama;iiyama
-takems;brands;;takeMS;takeMS;takeMS
+code;parent;dynamic;label
+master;;;"en_US:Master catalog,fr_FR:Catalogue principal,de_DE:Hauptkatalog"
+sales;;;"en_US:Sales catalog,fr_FR:Catalogue des ventes,de_DE:Katalog Umsatz"
+tvs_projectors;master;;"en_US:TVs and projectors,de_DE:TVs und projectoren,fr_FR:Téléviseurs et projecteurs"
+pc_monitors;tvs_projectors;;"en_US:PC Monitors,de_DE:PC Monitoren,fr_FR:Moniteurs PC"
+led_tvs;tvs_projectors;;"en_US:LED TVs,de_DE:TVs LED,fr_FR:Télévisions LED"
+cameras;master;;en_US:Cameras,de_DE:Cameras,fr_FR:Caméras
+digital_cameras;cameras;;"en_US:Digital cameras,de_DE:Digitale Kameras,fr_FR:Caméras digitales"
+camcorders;cameras;;"en_US:Camcorders,de_DE:Digitale Videokameras,fr_FR:Caméscopes numériques"
+webcams;cameras;;en_US:Webcams,de_DE:Webcams,fr_FR:Webcams
+audio_video;master;;"en_US:Audio and Video,de_DE:Audio und Video,fr_FR:Audio et Video"
+headphones;audio_video;;"en_US:Headphones,de_DE:Kopfhörer,fr_FR:Casques audio"
+mp3_players;audio_video;;"en_US:MP3 players,de_DE:MP3/MP4 Player,fr_FR:Lecteurs et enregistreurs MP3"
+loudspeakers;audio_video;;en_US:Loudspeakers,de_DE:Lautsprecher,fr_FR:Hauts-parleurs
+print_scan;master;;"en_US:Print and scan,de_DE:Drucken und Scannen,fr_FR:Imprimantes et scanners"
+multifunctionals;print_scan;;en_US:Multifunctionals,de_DE:Multifunktionsgeräte,fr_FR:Multifonctions
+laser_led_printers;print_scan;;"en_US:Laser and LED printers,de_DE:Laserdrucker,fr_FR:Imprimantes laser et LED"
+scanners;print_scan;;en_US:Scanners,de_DE:Scanners,fr_FR:Scanners
+brands;sales;;en_US:Brands,de_DE:Marken,fr_FR:Marques
+home_appliances;sales;;"en_US:Home appliances,de_DE:Haushaltsgeräte,fr_FR:Appareils ménagers"
+tvs_projectors_sales;home_appliances;;"en_US:TVs and projectors,de_DE:TVs und projectoren,fr_FR:Téléviseurs et projecteurs"
+cameras_sales;home_appliances;;en_US:Cameras,de_DE:Cameras,fr_FR:Caméras
+audio_video_sales;home_appliances;;"en_US:Audio and Video,de_DE:Audio und Video,fr_FR:Audio et Video"
+print_scan_sales;home_appliances;;"en_US:Print and scan,de_DE:Drucken und Scannen,fr_FR:Imprimantes et scanners"
+3go;brands;;en_US:3GO,de_DE:3GO,fr_FR:3GO
+3m;brands;;en_US:3M,de_DE:3M,fr_FR:3M
+a4tech;brands;;en_US:A4Tech,de_DE:A4Tech,fr_FR:A4Tech
+aoc;brands;;en_US:AOC,de_DE:AOC,fr_FR:AOC
+asus;brands;;en_US:ASUS,de_DE:ASUS,fr_FR:ASUS
+acer;brands;;en_US:Acer,de_DE:Acer,fr_FR:Acer
+adapt;brands;;en_US:Adapt,de_DE:Adapt,fr_FR:Adapt
+approx;brands;;en_US:Approx,de_DE:Approx,fr_FR:Approx
+avision;brands;;en_US:Avision,de_DE:Avision,fr_FR:Avision
+belkin;brands;;en_US:Belkin,de_DE:Belkin,fr_FR:Belkin
+brother;brands;;en_US:Brother,de_DE:Brother,fr_FR:Brother
+canon;brands;;en_US:Canon,de_DE:Canon,fr_FR:Canon
+cisco;brands;;en_US:Cisco,de_DE:Cisco,fr_FR:Cisco
+conceptronic;brands;;en_US:Conceptronic,de_DE:Conceptronic,fr_FR:Conceptronic
+d_link;brands;;en_US:D-Link,de_DE:D-Link,fr_FR:D-Link
+dell;brands;;en_US:DELL,de_DE:DELL,fr_FR:DELL
+dymo;brands;;en_US:DYMO,de_DE:DYMO,fr_FR:DYMO
+devolo;brands;;en_US:Devolo,de_DE:Devolo,fr_FR:Devolo
+dicota;brands;;en_US:Dicota,de_DE:Dicota,fr_FR:Dicota
+eminent;brands;;en_US:Eminent,de_DE:Eminent,fr_FR:Eminent
+emtec;brands;;en_US:Emtec,de_DE:Emtec,fr_FR:Emtec
+ewent;brands;;en_US:Ewent,de_DE:Ewent,fr_FR:Ewent
+fujifilm;brands;;en_US:Fujifilm,de_DE:Fujifilm,fr_FR:Fujifilm
+fujitsu;brands;;en_US:Fujitsu,de_DE:Fujitsu,fr_FR:Fujitsu
+g_cube;brands;;en_US:G-Cube,de_DE:G-Cube,fr_FR:G-Cube
+gear4;brands;;en_US:GEAR4,de_DE:GEAR4,fr_FR:GEAR4
+gigabyte;brands;;en_US:Gigabyte,de_DE:Gigabyte,fr_FR:Gigabyte
+hp;brands;;en_US:HP,de_DE:HP,fr_FR:HP
+hamlet;brands;;en_US:Hamlet,de_DE:Hamlet,fr_FR:Hamlet
+hiper;brands;;en_US:Hiper,de_DE:Hiper,fr_FR:Hiper
+ibm;brands;;en_US:IBM,de_DE:IBM,fr_FR:IBM
+icidu;brands;;en_US:ICIDU,de_DE:ICIDU,fr_FR:ICIDU
+ion;brands;;en_US:ION,de_DE:ION,fr_FR:ION
+ion_audio;brands;;"en_US:ION Audio,de_DE:ION Audio,fr_FR:ION Audio"
+kensington;brands;;en_US:Kensington,de_DE:Kensington,fr_FR:Kensington
+kodak;brands;;en_US:Kodak,de_DE:Kodak,fr_FR:Kodak
+kyocera;brands;;en_US:Kyocera,de_DE:Kyocera,fr_FR:Kyocera
+lg;brands;;en_US:LG,de_DE:LG,fr_FR:LG
+lacie;brands;;en_US:LaCie,de_DE:LaCie,fr_FR:LaCie
+lenco;brands;;en_US:Lenco,de_DE:Lenco,fr_FR:Lenco
+lenovo;brands;;en_US:Lenovo,de_DE:Lenovo,fr_FR:Lenovo
+levelone;brands;;en_US:LevelOne,de_DE:LevelOne,fr_FR:LevelOne
+lexmark;brands;;en_US:Lexmark,de_DE:Lexmark,fr_FR:Lexmark
+logitech;brands;;en_US:Logitech,de_DE:Logitech,fr_FR:Logitech
+macally;brands;;en_US:Macally,de_DE:Macally,fr_FR:Macally
+magnavox;brands;;en_US:Magnavox,de_DE:Magnavox,fr_FR:Magnavox
+medion;brands;;en_US:Medion,de_DE:Medion,fr_FR:Medion
+microsoft;brands;;en_US:Microsoft,de_DE:Microsoft,fr_FR:Microsoft
+nec;brands;;en_US:NEC,de_DE:NEC,fr_FR:NEC
+ngs;brands;;en_US:NGS,de_DE:NGS,fr_FR:NGS
+noxon;brands;;en_US:NOXON,de_DE:NOXON,fr_FR:NOXON
+oki;brands;;en_US:OKI,de_DE:OKI,fr_FR:OKI
+ovislink;brands;;en_US:OvisLink,de_DE:OvisLink,fr_FR:OvisLink
+philips;brands;;en_US:Philips,de_DE:Philips,fr_FR:Philips
+razer;brands;;en_US:Razer,de_DE:Razer,fr_FR:Razer
+ricatech;brands;;en_US:Ricatech,de_DE:Ricatech,fr_FR:Ricatech
+ricoh;brands;;en_US:Ricoh,de_DE:Ricoh,fr_FR:Ricoh
+spcinternet;brands;;en_US:SPCinternet,de_DE:SPCinternet,fr_FR:SPCinternet
+salora;brands;;en_US:Salora,de_DE:Salora,fr_FR:Salora
+samsung;brands;;en_US:Samsung,de_DE:Samsung,fr_FR:Samsung
+sandberg;brands;;en_US:Sandberg,de_DE:Sandberg,fr_FR:Sandberg
+sitecom;brands;;en_US:Sitecom,de_DE:Sitecom,fr_FR:Sitecom
+sony;brands;;en_US:Sony,de_DE:Sony,fr_FR:Sony
+speed_link;brands;;en_US:Speed-Link,de_DE:Speed-Link,fr_FR:Speed-Link
+spire;brands;;en_US:Spire,de_DE:Spire,fr_FR:Spire
+sweex;brands;;en_US:Sweex,de_DE:Sweex,fr_FR:Sweex
+tdk;brands;;en_US:TDK,de_DE:TDK,fr_FR:TDK
+tacens;brands;;en_US:Tacens,de_DE:Tacens,fr_FR:Tacens
+targus;brands;;en_US:Targus,de_DE:Targus,fr_FR:Targus
+techly;brands;;en_US:Techly,de_DE:Techly,fr_FR:Techly
+teufel;brands;;en_US:Teufel,de_DE:Teufel,fr_FR:Teufel
+thrustmaster;brands;;en_US:Thrustmaster,de_DE:Thrustmaster,fr_FR:Thrustmaster
+toshiba;brands;;en_US:Toshiba,de_DE:Toshiba,fr_FR:Toshiba
+trust;brands;;en_US:Trust,de_DE:Trust,fr_FR:Trust
+v7;brands;;en_US:V7,de_DE:V7,fr_FR:V7
+value;brands;;en_US:Value,de_DE:Value,fr_FR:Value
+verbatim;brands;;en_US:Verbatim,de_DE:Verbatim,fr_FR:Verbatim
+viewsonic;brands;;en_US:Viewsonic,de_DE:Viewsonic,fr_FR:Viewsonic
+vogel_s;brands;;en_US:Vogel's,de_DE:Vogel's,fr_FR:Vogel's
+woxter;brands;;en_US:Woxter,de_DE:Woxter,fr_FR:Woxter
+xerox;brands;;en_US:Xerox,de_DE:Xerox,fr_FR:Xerox
+xtrememac;brands;;en_US:XtremeMac,de_DE:XtremeMac,fr_FR:XtremeMac
+yarvik;brands;;en_US:Yarvik,de_DE:Yarvik,fr_FR:Yarvik
+iiyama;brands;;en_US:iiyama,de_DE:iiyama,fr_FR:iiyama
+takems;brands;;en_US:takeMS,de_DE:takeMS,fr_FR:takeMS

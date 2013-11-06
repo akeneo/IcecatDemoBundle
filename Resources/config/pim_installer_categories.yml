@@ -1,7 +1,11 @@
 categories:
     master:
-        code:  master
-        label: Master catalog
-    vendors:
-        code:  vendors
-        label: Vendors
+        labels:
+            en_US: Master catalog
+            fr_FR: Catalogue principal
+            de_DE: Hauptkatalog
+    sales:
+        labels:
+            en_US: Sales catalog
+            fr_FR: Catalogue des ventes
+            de_DE: Katalog Umsatz

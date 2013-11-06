@@ -10,6 +10,7 @@ families:
             - sku
             - name
             - description
+            - price
             - release_date
             - display_diagonal
             - response_time
@@ -22,18 +23,20 @@ families:
                 - sku
                 - name
                 - description
+                - price
                 - display_diagonal
-                - response_time
-                - display_srgb
-                - display_color
             mobile:
                 - sku
                 - name
                 - description
+                - price
                 - display_diagonal
-                - response_time
-                - display_srgb
-                - display_color
+            ecommerce:
+                - sku
+                - name
+                - description
+                - price
+                - display_diagonal
     led_tvs:
         labels:
             default: 'LED TVs'
@@ -45,6 +48,7 @@ families:
             - sku
             - name
             - description
+            - price
             - release_date
             - display_diagonal
             - weight
@@ -54,11 +58,19 @@ families:
                 - sku
                 - name
                 - description
+                - price
                 - display_diagonal
             mobile:
                 - sku
                 - name
                 - description
+                - price
+                - display_diagonal
+            ecommerce:
+                - sku
+                - name
+                - description
+                - price
                 - display_diagonal
     camcorders:
         labels:
@@ -71,6 +83,7 @@ families:
             - sku
             - name
             - description
+            - price
             - release_date
             - sensor_type
             - total_megapixels
@@ -83,18 +96,23 @@ families:
                 - sku
                 - name
                 - description
+                - price
                 - sensor_type
                 - total_megapixels
-                - optical_zoom
-                - image_stabilizer
             mobile:
                 - sku
                 - name
                 - description
+                - price
                 - sensor_type
                 - total_megapixels
-                - optical_zoom
-                - image_stabilizer
+            ecommerce:
+                - sku
+                - name
+                - description
+                - price
+                - sensor_type
+                - total_megapixels
     digital_cameras:
         labels:
             default: 'Digital cameras'
@@ -106,6 +124,7 @@ families:
             - sku
             - name
             - description
+            - price
             - release_date
             - camera_type
             - sensor_type
@@ -118,18 +137,26 @@ families:
                 - sku
                 - name
                 - description
+                - price
                 - camera_type
                 - sensor_type
                 - total_megapixels
-                - optical_zoom
             mobile:
                 - sku
                 - name
                 - description
+                - price
                 - camera_type
                 - sensor_type
                 - total_megapixels
-                - optical_zoom
+            ecommerce:
+                - sku
+                - name
+                - description
+                - price
+                - camera_type
+                - sensor_type
+                - total_megapixels
     webcams:
         labels:
             default: Webcams
@@ -141,6 +168,7 @@ families:
             - sku
             - name
             - description
+            - price
             - release_date
             - total_megapixels
             - maximum_video_resolution
@@ -152,16 +180,23 @@ families:
                 - sku
                 - name
                 - description
+                - price
                 - total_megapixels
                 - maximum_video_resolution
-                - maximum_frame_rate
             mobile:
                 - sku
                 - name
                 - description
+                - price
                 - total_megapixels
                 - maximum_video_resolution
-                - maximum_frame_rate
+            ecommerce:
+                - sku
+                - name
+                - description
+                - price
+                - total_megapixels
+                - maximum_video_resolution
     headphones:
         labels:
             default: Headphones
@@ -173,6 +208,7 @@ families:
             - sku
             - name
             - description
+            - price
             - release_date
             - thd
             - snr
@@ -184,16 +220,23 @@ families:
                 - sku
                 - name
                 - description
+                - price
                 - thd
                 - snr
-                - headphone_connectivity
             mobile:
                 - sku
                 - name
                 - description
+                - price
                 - thd
                 - snr
-                - headphone_connectivity
+            ecommerce:
+                - sku
+                - name
+                - description
+                - price
+                - thd
+                - snr
     mp3_players:
         labels:
             default: 'MP3 players'
@@ -205,6 +248,7 @@ families:
             - sku
             - name
             - description
+            - price
             - release_date
             - weight
             - power_requirements
@@ -213,10 +257,17 @@ families:
                 - sku
                 - name
                 - description
+                - price
             mobile:
                 - sku
                 - name
                 - description
+                - price
+            ecommerce:
+                - sku
+                - name
+                - description
+                - price
     loudspeakers:
         labels:
             default: Loudspeakers
@@ -228,6 +279,7 @@ families:
             - sku
             - name
             - description
+            - price
             - release_date
             - weight
             - power_requirements
@@ -236,10 +288,17 @@ families:
                 - sku
                 - name
                 - description
+                - price
             mobile:
                 - sku
                 - name
                 - description
+                - price
+            ecommerce:
+                - sku
+                - name
+                - description
+                - price
     multifunctionals:
         labels:
             default: Multifunctionals
@@ -251,10 +310,11 @@ families:
             - sku
             - name
             - description
+            - price
             - release_date
             - color_scanning
-            - maximum_print_size
             - multifunctional_functions
+            - maximum_print_size
             - weight
             - power_requirements
         requirements:
@@ -262,15 +322,22 @@ families:
                 - sku
                 - name
                 - description
+                - price
                 - color_scanning
-                - maximum_print_size
                 - multifunctional_functions
             mobile:
                 - sku
                 - name
                 - description
+                - price
                 - color_scanning
-                - maximum_print_size
+                - multifunctional_functions
+            ecommerce:
+                - sku
+                - name
+                - description
+                - price
+                - color_scanning
                 - multifunctional_functions
     laser_led_printers:
         labels:
@@ -284,16 +351,25 @@ families:
                 - sku
                 - name
                 - description
+                - price
                 - maximum_print_size
             mobile:
                 - sku
                 - name
                 - description
+                - price
+                - maximum_print_size
+            ecommerce:
+                - sku
+                - name
+                - description
+                - price
                 - maximum_print_size
         attributes:
             - sku
             - name
             - description
+            - price
             - release_date
             - maximum_print_size
             - weight
@@ -310,18 +386,25 @@ families:
                 - sku
                 - name
                 - description
+                - price
                 - color_scanning
-                - maximum_scan_size
             mobile:
                 - sku
                 - name
                 - description
+                - price
                 - color_scanning
-                - maximum_scan_size
+            ecommerce:
+                - sku
+                - name
+                - description
+                - price
+                - color_scanning
         attributes:
             - sku
             - name
             - description
+            - price
             - release_date
             - color_scanning
             - maximum_scan_size
@@ -339,14 +422,22 @@ families:
                 - sku
                 - name
                 - description
+                - price
             mobile:
                 - sku
                 - name
                 - description
+                - price
+            ecommerce:
+                - sku
+                - name
+                - description
+                - price
         attributes:
             - sku
             - name
             - description
+            - price
             - release_date
             - weight
             - power_requirements

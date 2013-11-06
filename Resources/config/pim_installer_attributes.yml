@@ -32,7 +32,7 @@ attributes:
             default: Description
             en_US: Description
             fr_FR: Description
-            de_DE: Description
+            de_DE: Beschreibung
         type: pim_catalog_textarea
         description: 'product name'
         group: marketing
@@ -410,3 +410,16 @@ attributes:
             sortOrder: 24
             metricFamily: Length
             defaultMetricUnit: MILLIMETER
+    price:
+        labels:
+            en_US: Price
+            fr_FR: Prix
+            de_DE: Preis
+        type: pim_catalog_price_collection
+        description: Price
+        group: marketing
+        parameters:
+            useableAsGridFilter: true
+            useableAsGridColumn: true
+            sortOrder: 25
+            decimalsAllowed: true

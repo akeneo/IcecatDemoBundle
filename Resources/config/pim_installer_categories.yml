@@ -1,6 +1,6 @@
 categories:
     master:
-        code: categories
+        code: master
         labels:
             en_US: Master catalog
             fr_FR: Catalogue principal

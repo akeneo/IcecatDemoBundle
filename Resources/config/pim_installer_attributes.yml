@@ -423,3 +423,15 @@ attributes:
             useableAsGridColumn: true
             sortOrder: 25
             decimalsAllowed: true
+    picture:
+        labels:
+            en_US: Picture
+            fr_FR: Photographie
+            de_DE: Photography
+        type: pim_catalog_image
+        description: Picture
+        group: marketing
+        parameters:
+            useableAsGridFilter: false
+            useableAsGridColumn: false
+            sortOrder: 26

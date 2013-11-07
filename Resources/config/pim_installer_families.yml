@@ -12,6 +12,7 @@ families:
             - description
             - price
             - release_date
+            - picture
             - display_diagonal
             - response_time
             - display_srgb
@@ -50,6 +51,7 @@ families:
             - description
             - price
             - release_date
+            - picture
             - display_diagonal
             - weight
             - power_requirements
@@ -85,6 +87,7 @@ families:
             - description
             - price
             - release_date
+            - picture
             - sensor_type
             - total_megapixels
             - optical_zoom
@@ -126,6 +129,7 @@ families:
             - description
             - price
             - release_date
+            - picture
             - camera_type
             - sensor_type
             - total_megapixels
@@ -170,6 +174,7 @@ families:
             - description
             - price
             - release_date
+            - picture
             - total_megapixels
             - maximum_video_resolution
             - maximum_frame_rate
@@ -210,6 +215,7 @@ families:
             - description
             - price
             - release_date
+            - picture
             - thd
             - snr
             - headphone_connectivity
@@ -250,6 +256,7 @@ families:
             - description
             - price
             - release_date
+            - picture
             - weight
             - power_requirements
         requirements:
@@ -281,6 +288,7 @@ families:
             - description
             - price
             - release_date
+            - picture
             - weight
             - power_requirements
         requirements:
@@ -312,6 +320,7 @@ families:
             - description
             - price
             - release_date
+            - picture
             - color_scanning
             - multifunctional_functions
             - maximum_print_size
@@ -371,6 +380,7 @@ families:
             - description
             - price
             - release_date
+            - picture
             - maximum_print_size
             - weight
             - power_requirements
@@ -406,6 +416,7 @@ families:
             - description
             - price
             - release_date
+            - picture
             - color_scanning
             - maximum_scan_size
             - weight
@@ -439,5 +450,6 @@ families:
             - description
             - price
             - release_date
+            - picture
             - weight
             - power_requirements

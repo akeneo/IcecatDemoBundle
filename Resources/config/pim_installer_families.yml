@@ -11,6 +11,7 @@ families:
             - name
             - description
             - price
+            - vendor
             - release_date
             - picture
             - display_diagonal
@@ -25,18 +26,21 @@ families:
                 - name
                 - description
                 - price
+                - vendor
                 - display_diagonal
             mobile:
                 - sku
                 - name
                 - description
                 - price
+                - vendor
                 - display_diagonal
             ecommerce:
                 - sku
                 - name
                 - description
                 - price
+                - vendor
                 - display_diagonal
     led_tvs:
         labels:
@@ -50,6 +54,7 @@ families:
             - name
             - description
             - price
+            - vendor
             - release_date
             - picture
             - display_diagonal
@@ -61,18 +66,21 @@ families:
                 - name
                 - description
                 - price
+                - vendor
                 - display_diagonal
             mobile:
                 - sku
                 - name
                 - description
                 - price
+                - vendor
                 - display_diagonal
             ecommerce:
                 - sku
                 - name
                 - description
                 - price
+                - vendor
                 - display_diagonal
     camcorders:
         labels:
@@ -86,6 +94,7 @@ families:
             - name
             - description
             - price
+            - vendor
             - release_date
             - picture
             - sensor_type
@@ -100,6 +109,7 @@ families:
                 - name
                 - description
                 - price
+                - vendor
                 - sensor_type
                 - total_megapixels
             mobile:
@@ -107,6 +117,7 @@ families:
                 - name
                 - description
                 - price
+                - vendor
                 - sensor_type
                 - total_megapixels
             ecommerce:
@@ -114,6 +125,7 @@ families:
                 - name
                 - description
                 - price
+                - vendor
                 - sensor_type
                 - total_megapixels
     digital_cameras:
@@ -128,6 +140,7 @@ families:
             - name
             - description
             - price
+            - vendor
             - release_date
             - picture
             - camera_type
@@ -142,6 +155,7 @@ families:
                 - name
                 - description
                 - price
+                - vendor
                 - camera_type
                 - sensor_type
                 - total_megapixels
@@ -150,6 +164,7 @@ families:
                 - name
                 - description
                 - price
+                - vendor
                 - camera_type
                 - sensor_type
                 - total_megapixels
@@ -158,6 +173,7 @@ families:
                 - name
                 - description
                 - price
+                - vendor
                 - camera_type
                 - sensor_type
                 - total_megapixels
@@ -173,6 +189,7 @@ families:
             - name
             - description
             - price
+            - vendor
             - release_date
             - picture
             - total_megapixels
@@ -186,6 +203,7 @@ families:
                 - name
                 - description
                 - price
+                - vendor
                 - total_megapixels
                 - maximum_video_resolution
             mobile:
@@ -193,6 +211,7 @@ families:
                 - name
                 - description
                 - price
+                - vendor
                 - total_megapixels
                 - maximum_video_resolution
             ecommerce:
@@ -200,6 +219,7 @@ families:
                 - name
                 - description
                 - price
+                - vendor
                 - total_megapixels
                 - maximum_video_resolution
     headphones:
@@ -214,6 +234,7 @@ families:
             - name
             - description
             - price
+            - vendor
             - release_date
             - picture
             - thd
@@ -227,6 +248,7 @@ families:
                 - name
                 - description
                 - price
+                - vendor
                 - thd
                 - snr
             mobile:
@@ -234,6 +256,7 @@ families:
                 - name
                 - description
                 - price
+                - vendor
                 - thd
                 - snr
             ecommerce:
@@ -241,6 +264,7 @@ families:
                 - name
                 - description
                 - price
+                - vendor
                 - thd
                 - snr
     mp3_players:
@@ -255,6 +279,7 @@ families:
             - name
             - description
             - price
+            - vendor
             - release_date
             - picture
             - weight
@@ -265,16 +290,19 @@ families:
                 - name
                 - description
                 - price
+                - vendor
             mobile:
                 - sku
                 - name
                 - description
                 - price
+                - vendor
             ecommerce:
                 - sku
                 - name
                 - description
                 - price
+                - vendor
     loudspeakers:
         labels:
             default: Loudspeakers
@@ -287,6 +315,7 @@ families:
             - name
             - description
             - price
+            - vendor
             - release_date
             - picture
             - weight
@@ -297,16 +326,19 @@ families:
                 - name
                 - description
                 - price
+                - vendor
             mobile:
                 - sku
                 - name
                 - description
                 - price
+                - vendor
             ecommerce:
                 - sku
                 - name
                 - description
                 - price
+                - vendor
     multifunctionals:
         labels:
             default: Multifunctionals
@@ -319,6 +351,7 @@ families:
             - name
             - description
             - price
+            - vendor
             - release_date
             - picture
             - color_scanning
@@ -332,6 +365,7 @@ families:
                 - name
                 - description
                 - price
+                - vendor
                 - color_scanning
                 - multifunctional_functions
             mobile:
@@ -339,6 +373,7 @@ families:
                 - name
                 - description
                 - price
+                - vendor
                 - color_scanning
                 - multifunctional_functions
             ecommerce:
@@ -346,6 +381,7 @@ families:
                 - name
                 - description
                 - price
+                - vendor
                 - color_scanning
                 - multifunctional_functions
     laser_led_printers:
@@ -361,24 +397,28 @@ families:
                 - name
                 - description
                 - price
+                - vendor
                 - maximum_print_size
             mobile:
                 - sku
                 - name
                 - description
                 - price
+                - vendor
                 - maximum_print_size
             ecommerce:
                 - sku
                 - name
                 - description
                 - price
+                - vendor
                 - maximum_print_size
         attributes:
             - sku
             - name
             - description
             - price
+            - vendor
             - release_date
             - picture
             - maximum_print_size
@@ -397,24 +437,28 @@ families:
                 - name
                 - description
                 - price
+                - vendor
                 - color_scanning
             mobile:
                 - sku
                 - name
                 - description
                 - price
+                - vendor
                 - color_scanning
             ecommerce:
                 - sku
                 - name
                 - description
                 - price
+                - vendor
                 - color_scanning
         attributes:
             - sku
             - name
             - description
             - price
+            - vendor
             - release_date
             - picture
             - color_scanning
@@ -434,21 +478,25 @@ families:
                 - name
                 - description
                 - price
+                - vendor
             mobile:
                 - sku
                 - name
                 - description
                 - price
+                - vendor
             ecommerce:
                 - sku
                 - name
                 - description
                 - price
+                - vendor
         attributes:
             - sku
             - name
             - description
             - price
+            - vendor
             - release_date
             - picture
             - weight

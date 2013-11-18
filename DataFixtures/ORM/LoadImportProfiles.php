@@ -17,7 +17,7 @@ class LoadImportProfiles extends ContainerAwareFixture implements FixtureInterfa
 {
     public function load(ObjectManager $manager)
     {
-        $importDir = $this->container->getParameter('pim_demo.import_dir');
+        $importDir = $this->container->getParameter('pim_icecatdemo.import_dir');
         $this->loadJobInstance(
             $manager,
             'category_import',

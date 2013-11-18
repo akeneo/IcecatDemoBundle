@@ -1,0 +1,13 @@
+btn:
+    create:
+        vendor: New vendor
+        
+flash:
+    vendor:
+        removed: The vendor was removed successfully
+
+confirmation:
+    remove:
+      vendor: Are you sure you want to remove this vendor ?
+
+

@@ -423,6 +423,18 @@ attributes:
             useableAsGridColumn: true
             sortOrder: 25
             decimalsAllowed: true
+    vendor:
+        labels:
+            en_US: Vendor
+            fr_FR: Fournisseur
+            de_DE: Anbieter
+        type: pim_icecatdemo_vendor
+        description: Picture
+        group: marketing
+        parameters:
+            useableAsGridFilter: true
+            useableAsGridColumn: true
+            sortOrder: 26
     picture:
         labels:
             en_US: Picture
@@ -434,4 +446,4 @@ attributes:
         parameters:
             useableAsGridFilter: false
             useableAsGridColumn: false
-            sortOrder: 26
+            sortOrder: 27

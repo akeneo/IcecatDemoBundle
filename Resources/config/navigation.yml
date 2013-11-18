@@ -1,0 +1,12 @@
+oro_menu_config:
+    items:
+        pim_icecatdemo_enrich_vendor:
+            label: 'Vendors'
+            route: 'pim_icecatdemo_vendor_index'
+
+    tree:
+        application_menu:
+            children:
+                pim_enrich_tab:
+                    children:
+                        pim_icecatdemo_enrich_vendor: ~

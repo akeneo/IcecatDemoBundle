@@ -22,10 +22,13 @@ class PimIcecatDemoExtension extends Extension
         $configuration = new Configuration();
         $config = $this->processConfiguration($configuration, $configs);
 
-        $container->setParameter('pim_demo.import_dir', $config['import_dir']);
-        $container->setParameter('pim_demo.bundle_dir', sprintf('%s/..', __DIR__));
+        $container->setParameter('pim_icecatdemo.import_dir', $config['import_dir']);
 
         $loader = new Loader\YamlFileLoader($container, new FileLocator(__DIR__.'/../Resources/config'));
-        $loader->load('services.yml');
+        $loader->load('attribute_types.yml');
+        $loader->load('datagrid.yml');
+        $loader->load('form_types.yml');
+        $loader->load('orm_filter_types.yml');
+        $loader->load('transformers.yml');
     }
 }

@@ -27,8 +27,6 @@ class PimIcecatDemoBundle extends Bundle
      */
     public function build(ContainerBuilder $container)
     {
-        $container
-            ->addCompilerPass(new DependencyInjection\Compiler\DoctrineConfigurationPass())
-            ->addCompilerPass(new DependencyInjection\Compiler\AttributeTypesPass());
+        $container->addCompilerPass(new DependencyInjection\Compiler\AttributeTypesPass());
     }
 }

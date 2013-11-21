@@ -28,16 +28,6 @@ class VendorType extends AbstractAttributeType
     /**
      * {@inheritdoc}
      */
-    protected function defineCustomAttributeProperties(AbstractAttribute $attribute)
-    {
-        $properties = array();
-
-        return $properties;
-    }
-
-    /**
-     * {@inheritdoc}
-     */
     public function getName()
     {
         return 'pim_icecatdemo_vendor';

@@ -121,29 +121,6 @@ class Vendor
     }
 
     /**
-     * Set image
-     *
-     * @param  string $image
-     * @return Domain
-     */
-    public function setImage($image)
-    {
-        $this->image = $image;
-
-        return $this;
-    }
-
-    /**
-     * Get image
-     *
-     * @return string
-     */
-    public function getImage()
-    {
-        return $this->image;
-    }
-
-    /**
      * Set created
      *
      * @param  \DateTime $created

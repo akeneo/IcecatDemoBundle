@@ -1,5 +1,0 @@
-# cora wine
-pim_icecat:
-    resource: "@PimIcecatDemoBundle/Controller/"
-    type: annotation
-    prefix: /enrich/

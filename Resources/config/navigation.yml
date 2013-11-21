@@ -1,8 +1,9 @@
 oro_menu_config:
     items:
         pim_icecatdemo_enrich_vendor:
-            label: 'Vendors'
-            route: 'pim_icecatdemo_vendor_index'
+            label:              'Vendors'
+            route:              'pim_customentity_index'
+            routeParameters:    { customEntityName: vendor }
 
     tree:
         application_menu:

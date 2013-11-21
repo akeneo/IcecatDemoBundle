@@ -35,7 +35,6 @@ class VendorType extends AbstractAttributeType
         return $properties;
     }
 
-
     /**
      * {@inheritdoc}
      */

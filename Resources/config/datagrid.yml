@@ -7,7 +7,8 @@ services:
     pim_icecatdemo.datagrid.manager.vendor:
             class: %pim_icecatdemo.datagrid.manager.vendor.class%
             tags:
-                - name:          oro_grid.datagrid.manager
-                  datagrid_name: vendors
-                  entity_hint:   vendors
-                  route_name:    pim_icecatdemo_vendor_index
+                - name:               oro_grid.datagrid.manager
+                  datagrid_name:      vendors
+                  entity_hint:        vendors
+                  route_name:         pim_customentity_index
+                  custom_entity_name: vendor

@@ -9,7 +9,7 @@ use Gedmo\Mapping\Annotation as Gedmo;
 
 /**
  * Vendor entity
- * 
+ *
  * @author    Antoine Guigan <antoine@akeneo.com>
  * @copyright 2013 Akeneo SAS (http://www.akeneo.com)
  * @license   http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
@@ -66,7 +66,7 @@ class Vendor
 
     /**
      * Get id
-     * 
+     *
      * @return int
      */
     public function getId()
@@ -76,7 +76,7 @@ class Vendor
 
     /**
      * Get code
-     * 
+     *
      * @return string
      */
     public function getCode()
@@ -86,7 +86,7 @@ class Vendor
 
     /**
      * Get label
-     * 
+     *
      * @return string
      */
     public function getLabel()
@@ -96,8 +96,8 @@ class Vendor
 
     /**
      * Set code
-     * 
-     * @param string $code
+     *
+     * @param  string $code
      * @return Vendor
      */
     public function setCode($code)
@@ -109,8 +109,8 @@ class Vendor
 
     /**
      * Set label
-     * 
-     * @param string $label
+     *
+     * @param  string $label
      * @return Vendor
      */
     public function setLabel($label)
@@ -123,20 +123,20 @@ class Vendor
     /**
      * Set image
      *
-     * @param string $image
+     * @param  string $image
      * @return Domain
      */
     public function setImage($image)
     {
         $this->image = $image;
-    
+
         return $this;
     }
 
     /**
      * Get image
      *
-     * @return string 
+     * @return string
      */
     public function getImage()
     {
@@ -146,20 +146,20 @@ class Vendor
     /**
      * Set created
      *
-     * @param \DateTime $created
+     * @param  \DateTime $created
      * @return Domain
      */
     public function setCreated($created)
     {
         $this->created = $created;
-    
+
         return $this;
     }
 
     /**
      * Get created
      *
-     * @return \DateTime 
+     * @return \DateTime
      */
     public function getCreated()
     {
@@ -169,20 +169,20 @@ class Vendor
     /**
      * Set updated
      *
-     * @param \DateTime $updated
+     * @param  \DateTime $updated
      * @return Domain
      */
     public function setUpdated($updated)
     {
         $this->updated = $updated;
-    
+
         return $this;
     }
 
     /**
      * Get updated
      *
-     * @return \DateTime 
+     * @return \DateTime
      */
     public function getUpdated()
     {

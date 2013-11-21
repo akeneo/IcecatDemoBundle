@@ -32,7 +32,7 @@ class ProductValue extends AbstractEntityFlexibleValue implements ProductValueIn
 {
     /**
      * @var Vendor
-     * 
+     *
      * @ORM\ManyToOne(targetEntity="Vendor")
      * @ORM\JoinColumn(name="vendor_id", onDelete="SET NULL")
      */
@@ -182,7 +182,7 @@ class ProductValue extends AbstractEntityFlexibleValue implements ProductValueIn
 
     /**
      * Get vendor
-     * 
+     *
      * @return Vendor
      */
     public function getVendor()
@@ -192,8 +192,8 @@ class ProductValue extends AbstractEntityFlexibleValue implements ProductValueIn
 
     /**
      * Set vendor
-     * 
-     * @param Vendor $vendor
+     *
+     * @param  Vendor       $vendor
      * @return ProductValue
      */
     public function setVendor(Vendor $vendor)

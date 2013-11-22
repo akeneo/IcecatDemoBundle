@@ -43,9 +43,9 @@ class LoadImportProfiles extends ContainerAwareFixture implements FixtureInterfa
         $jobInstance = new JobInstance('Akeneo CSV Connector', 'import', $alias);
         $connectorRegistry = $this->container->get('oro_batch.connectors');
         $job = $connectorRegistry->getJob($jobInstance);
-        $steps = $job->getSteps();
-        $step = array_shift($steps);
-        $step->getReader()->setFilePath($file);
+        foreach($job->getSteps() as $step) {
+            $step->getReader()->setFilePath($file);
+        }
         $jobInstance
             ->setCode($code)
             ->setLabel($label)

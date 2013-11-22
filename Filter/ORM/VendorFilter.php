@@ -2,8 +2,8 @@
 
 namespace Pim\Bundle\IcecatDemoBundle\Filter\ORM;
 
-use Pim\Bundle\IcecatDemoBundle\Form\Type\Filter\VendorFilterType;
 use Oro\Bundle\GridBundle\Filter\ORM\ChoiceFilter;
+use Pim\Bundle\CustomEntityBundle\Form\CustomEntityFilterType;
 
 /**
  * Overriding of Choice filter
@@ -36,8 +36,20 @@ class VendorFilter extends ChoiceFilter
     public function getDefaultOptions()
     {
         return array(
-            'form_type' => VendorFilterType::NAME
+            'form_type' => CustomEntityFilterType::NAME
         );
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function getRenderSettings()
+    {
+        list($formType, $formOptions) = parent::getRenderSettings();
+        $formOptions['class'] = 'Pim\Bundle\IcecatDemoBundle\Entity\Vendor';
+        $formOptions['sort'] = array('label' => 'asc');
+
+        return array($formType, $formOptions);
     }
 
     /**

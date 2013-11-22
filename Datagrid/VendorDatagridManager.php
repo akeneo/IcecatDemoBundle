@@ -2,14 +2,12 @@
 
 namespace Pim\Bundle\IcecatDemoBundle\Datagrid;
 
-use Oro\Bundle\GridBundle\Datagrid\DatagridManager;
 use Oro\Bundle\GridBundle\Action\ActionInterface;
 use Oro\Bundle\GridBundle\Filter\FilterInterface;
-use Oro\Bundle\GridBundle\Property\UrlProperty;
-use Oro\Bundle\GridBundle\Property\FieldProperty;
 use Oro\Bundle\GridBundle\Field\FieldDescription;
 use Oro\Bundle\GridBundle\Field\FieldDescriptionCollection;
 use Oro\Bundle\GridBundle\Field\FieldDescriptionInterface;
+use Pim\Bundle\CustomEntityBundle\Datagrid\DatagridManager;
 
 /**
  * Domain datagrid manager
@@ -21,28 +19,6 @@ use Oro\Bundle\GridBundle\Field\FieldDescriptionInterface;
  */
 class VendorDatagridManager extends DatagridManager
 {
-
-    /**
-     * {@inheritdoc}
-     */
-    protected function getProperties()
-    {
-        $fieldId = new FieldDescription();
-        $fieldId->setName('id');
-        $fieldId->setOptions(
-            array(
-                'type'     => FieldDescriptionInterface::TYPE_INTEGER,
-                'required' => true,
-            )
-        );
-
-        return array(
-            new FieldProperty($fieldId),
-            new UrlProperty('edit_link', $this->router, 'pim_icecatdemo_vendor_edit', array('id')),
-            new UrlProperty('delete_link', $this->router, 'pim_icecatdemo_vendor_remove', array('id'))
-        );
-    }
-
     /**
      * {@inheritdoc}
      */

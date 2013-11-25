@@ -447,3 +447,4 @@ attributes:
             useableAsGridFilter: false
             useableAsGridColumn: false
             sortOrder: 27
+            allowedExtensions: 'jpg,jpeg,gif'

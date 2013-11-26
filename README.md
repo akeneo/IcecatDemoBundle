@@ -7,15 +7,25 @@ To install the demo data, use the following commands :
 
 WARNING: the contents of your database will be replaced
 
-    git submodule add git@github.com:akeneo/IcecatDemoBundle.git src/Pim/Bundle/IcecatDemoBundle
-    # Update your AppKernel to add PimIcecatDemoBundle
-    # Make sure pim_demo:load_data is set to false in app/config.yml
-    sh install.sh db
+Installing the bundle
+---------------------
+From your application root:
+
+    $ php composer.phar require --prefer-dist "akeneo/icecat-demo-bundle=dev-master
+
+Add the following line inside the `app/AppKernel.php` file:
+
+    new Pim\\Bundle\\IcecatDemoBundle\\PimIcecatDemoBundle(),
+
+Loading the data
+----------------
+    ./install.sh db
     php app/console doctrine:fixtures:load --append --fixtures=src/Pim/Bundle/IcecatDemoBundle/DataFixtures/
     php app/console cache:clear --env=prod
     php app/console pim:icecat-demo:import --env=prod
-    php app/console pim:product:completeness-calculator --env=prod
+    php app/console pim:completeness:calculate --env=prod
     php app/console pim:versioning:refresh --env=prod
 
-
-For more information about Icecat, please see http://icecat.biz
+Icecat data
+-----------
+For more information about Icecat, please see http://icecat.biz/

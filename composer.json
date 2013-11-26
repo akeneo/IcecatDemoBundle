@@ -1,5 +1,5 @@
 {
-    "name": "akeneo/IcecatDemoBundle",
+    "name": "akeneo/icecat-demo-bundle",
     "type": "symfony-bundle",
     "description": "Icecat Demo Bundle (For more information about Icecat, please see http://icecat.biz)",
     "keywords": ["Demo", "Data", "Generator"],

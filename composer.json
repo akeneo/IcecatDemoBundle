@@ -1,28 +1,13 @@
 {
     "name": "akeneo/icecat-demo-bundle",
     "type": "symfony-bundle",
-    "description": "Icecat Demo Bundle (For more information about Icecat, please see http://icecat.biz)",
+    "description": "Akeneo PIM Icecat Demo Bundle (For more information about Icecat, please see http://icecat.biz)",
     "keywords": ["Demo", "Data", "Generator"],
     "homepage": "https://github.com/akeneo/IcecatDemoBundle",
     "license": "OSL",
-    "require": {
-        "php": ">=5.3.3",
-        "symfony/symfony": "2.*",
-        "fzaninotto/faker": "~1.2",
-        "nelmio/alice": "1.2.*"
-    },
-    "require-dev": {
-        "doctrine/dbal": ">=2.2,<2.4-dev",
-        "doctrine/orm": ">=2.2.3,<2.4-dev"
-    },
     "autoload": {
         "psr-0": { "Pim\\Bundle\\IcecatDemoBundle": "" }
     },
     "target-dir": "Pim/Bundle/IcecatDemoBundle",
     "minimum-stability": "dev",
-    "extra": {
-        "branch-alias": {
-            "dev-master": "1.0-dev"
-        }
-    }
 }

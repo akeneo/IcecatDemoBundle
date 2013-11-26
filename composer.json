@@ -9,5 +9,5 @@
         "psr-0": { "Pim\\Bundle\\IcecatDemoBundle": "" }
     },
     "target-dir": "Pim/Bundle/IcecatDemoBundle",
-    "minimum-stability": "dev",
+    "minimum-stability": "dev"
 }

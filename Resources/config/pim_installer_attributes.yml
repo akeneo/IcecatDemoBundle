@@ -442,7 +442,7 @@ attributes:
             de_DE: Photography
         type: pim_catalog_image
         description: Picture
-        group: marketing
+        group: media
         parameters:
             useableAsGridFilter: false
             useableAsGridColumn: false

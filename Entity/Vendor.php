@@ -49,6 +49,14 @@ class Vendor
     protected $label;
 
     /**
+     *
+     * @var string
+     * 
+     * @ORM\Column
+     */
+    protected $responsible;
+
+    /**
      * @var datetime $created
      *
      * @Gedmo\Timestampable
@@ -121,6 +129,25 @@ class Vendor
     }
 
     /**
+     * Get responsible
+     * 
+     * @return string
+     */
+    public function getResponsible()
+    {
+        return $this->responsible;
+    }
+
+    /**
+     * 
+     * @param type $responsibleSet responsible
+     */
+    public function setResponsible($responsible)
+    {
+        $this->responsible = $responsible;
+    }
+
+        /**
      * Set created
      *
      * @param  \DateTime $created

@@ -30,6 +30,9 @@ class VendorDatagridManager extends DatagridManager
         $field = $this->createTextField('label', 'Label');
         $fieldsCollection->add($field);
 
+        $field = $this->createTextField('responsible', 'Responsible');
+        $fieldsCollection->add($field);
+        
         $field = new FieldDescription();
         $field->setName('created');
         $field->setOptions(

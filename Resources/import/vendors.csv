@@ -1,86 +1,86 @@
-code;label
-toshiba;Toshiba
-asus;ASUS
-lenovo;Lenovo
-samsung;Samsung
-sony;Sony
-acer;Acer
-philips;Philips
-iiyama;iiyama
-aoc;AOC
-nec;NEC
-hp;HP
-dell;DELL
-lg;LG
-viewsonic;Viewsonic
-3m;3M
-fujitsu;Fujitsu
-v7;V7
-salora;Salora
-lenco;Lenco
-medion;Medion
-canon;Canon
-fujifilm;Fujifilm
-ricoh;Ricoh
-kodak;Kodak
-woxter;Woxter
-cisco;Cisco
-logitech;Logitech
-speed_link;Speed-Link
-trust;Trust
-conceptronic;Conceptronic
-d_link;D-Link
-icidu;ICIDU
-microsoft;Microsoft
-sweex;Sweex
-a4tech;A4Tech
-hiper;Hiper
-levelone;LevelOne
-eminent;Eminent
-targus;Targus
-ngs;NGS
-devolo;Devolo
-ewent;Ewent
-macally;Macally
-g_cube;G-Cube
-belkin;Belkin
-hamlet;Hamlet
-sitecom;Sitecom
-ovislink;OvisLink
-approx;Approx
-thrustmaster;Thrustmaster
-ricatech;Ricatech
-yarvik;Yarvik
-3go;3GO
-spcinternet;SPCinternet
-emtec;Emtec
-takems;takeMS
-magnavox;Magnavox
-adapt;Adapt
-tacens;Tacens
-sandberg;Sandberg
-ion;ION
-dicota;Dicota
-vogel_s;Vogel's
-xtrememac;XtremeMac
-gear4;GEAR4
-value;Value
-ion_audio;"ION Audio"
-tdk;TDK
-gigabyte;Gigabyte
-techly;Techly
-spire;Spire
-teufel;Teufel
-verbatim;Verbatim
-noxon;NOXON
-lacie;LaCie
-razer;Razer
-lexmark;Lexmark
-brother;Brother
-xerox;Xerox
-oki;OKI
-kyocera;Kyocera
-ibm;IBM
-avision;Avision
-dymo;DYMO
-kensington;Kensington
+code;label;responsible
+toshiba;Toshiba;"Paul Bernard"
+asus;ASUS;"Cassandra Horowitz"
+lenovo;Lenovo;"Cassandra Horowitz"
+samsung;Samsung;"Edward Roberts"
+sony;Sony;"John Lewis"
+acer;Acer;"Cassandra Horowitz"
+philips;Philips;"John Lewis"
+iiyama;iiyama;"John Lewis"
+aoc;AOC;"John Lewis"
+nec;NEC;"John Lewis"
+hp;HP;"Paul Bernard"
+dell;DELL;"Paul Bernard"
+lg;LG;"Jennifer Styles"
+viewsonic;Viewsonic;"Edward Roberts"
+3m;3M;"Paul Bernard"
+fujitsu;Fujitsu;"Cassandra Horowitz"
+v7;V7;"Paul Bernard"
+salora;Salora;"Edward Roberts"
+lenco;Lenco;"Cassandra Horowitz"
+medion;Medion;"John Lewis"
+canon;Canon;"Jennifer Styles"
+fujifilm;Fujifilm;"Jennifer Styles"
+ricoh;Ricoh;"Edward Roberts"
+kodak;Kodak;"Edward Roberts"
+woxter;Woxter;"Cassandra Horowitz"
+cisco;Cisco;"Edward Roberts"
+logitech;Logitech;"Cassandra Horowitz"
+speed_link;Speed-Link;"John Lewis"
+trust;Trust;"John Lewis"
+conceptronic;Conceptronic;"Edward Roberts"
+d_link;D-Link;"Cassandra Horowitz"
+icidu;ICIDU;"John Lewis"
+microsoft;Microsoft;"John Lewis"
+sweex;Sweex;"Jennifer Styles"
+a4tech;A4Tech;"Jennifer Styles"
+hiper;Hiper;"John Lewis"
+levelone;LevelOne;"John Lewis"
+eminent;Eminent;"Cassandra Horowitz"
+targus;Targus;"Edward Roberts"
+ngs;NGS;"Edward Roberts"
+devolo;Devolo;"Paul Bernard"
+ewent;Ewent;"John Lewis"
+macally;Macally;"John Lewis"
+g_cube;G-Cube;"Jennifer Styles"
+belkin;Belkin;"Edward Roberts"
+hamlet;Hamlet;"Paul Bernard"
+sitecom;Sitecom;"John Lewis"
+ovislink;OvisLink;"Edward Roberts"
+approx;Approx;"Edward Roberts"
+thrustmaster;Thrustmaster;"Paul Bernard"
+ricatech;Ricatech;"Edward Roberts"
+yarvik;Yarvik;"Paul Bernard"
+3go;3GO;"Edward Roberts"
+spcinternet;SPCinternet;"Jennifer Styles"
+emtec;Emtec;"John Lewis"
+takems;takeMS;"John Lewis"
+magnavox;Magnavox;"Paul Bernard"
+adapt;Adapt;"Cassandra Horowitz"
+tacens;Tacens;"John Lewis"
+sandberg;Sandberg;"John Lewis"
+ion;ION;"John Lewis"
+dicota;Dicota;"Cassandra Horowitz"
+vogel_s;Vogel's;"John Lewis"
+xtrememac;XtremeMac;"John Lewis"
+gear4;GEAR4;"John Lewis"
+value;Value;"Cassandra Horowitz"
+ion_audio;"ION Audio";"Edward Roberts"
+tdk;TDK;"Edward Roberts"
+gigabyte;Gigabyte;"Edward Roberts"
+techly;Techly;"Cassandra Horowitz"
+spire;Spire;"Jennifer Styles"
+teufel;Teufel;"John Lewis"
+verbatim;Verbatim;"Cassandra Horowitz"
+noxon;NOXON;"Cassandra Horowitz"
+lacie;LaCie;"Jennifer Styles"
+razer;Razer;"Paul Bernard"
+lexmark;Lexmark;"Jennifer Styles"
+brother;Brother;"Cassandra Horowitz"
+xerox;Xerox;"Edward Roberts"
+oki;OKI;"Paul Bernard"
+kyocera;Kyocera;"Jennifer Styles"
+ibm;IBM;"Jennifer Styles"
+avision;Avision;"Cassandra Horowitz"
+dymo;DYMO;"Paul Bernard"
+kensington;Kensington;"John Lewis"

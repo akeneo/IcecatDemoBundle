@@ -10,3 +10,9 @@ attribute_groups:
             en_US: Technical
             fr_FR: Technique
             de_DE: Technische
+
+    media:
+        labels:
+            en_US: Media
+            fr_FR: Media
+            de_DE: Media

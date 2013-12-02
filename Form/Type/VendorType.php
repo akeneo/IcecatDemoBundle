@@ -22,8 +22,10 @@ class VendorType extends AbstractType
      */
     public function buildForm(FormBuilderInterface $builder, array $options)
     {
-        $builder->add('code', 'text');
-        $builder->add('label', 'text');
+        $builder
+            ->add('code')
+            ->add('label')
+            ->add('responsible');
     }
 
     /**

@@ -4,6 +4,6 @@ services:
             arguments:
                 - "vendor"
                 - "entity"
-                - @oro_flexibleentity.validator.attribute_constraint_guesser
+                - @pim_flexibleentity.validator.attribute_constraint_guesser
             tags:
-                - { name: oro_flexibleentity.attributetype, alias: pim_icecatdemo_vendor }
+                - { name: pim_flexibleentity.attributetype, alias: pim_icecatdemo_vendor }

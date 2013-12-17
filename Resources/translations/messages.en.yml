@@ -16,5 +16,3 @@ flash:
 confirmation:
     remove:
       vendor: Are you sure you want to remove this vendor ?
-
-pim_icecatdemo_vendor: Custom vendor attribute

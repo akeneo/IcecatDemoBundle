@@ -32,7 +32,7 @@ class LoadVendors implements FixtureInterface, ContainerAwareInterface
         while ($values = fgetcsv($f, 0, ';')) {
             $data = array_combine($labels, $values);
             $vendor = new Vendor;
-            $vendor->setCode($data['code'])->setLabel($data['label'])->setResponsible($data['responsible']);
+            $vendor->setCode($data['code'])->setLabel($data['label']);
             $manager->persist($vendor);
         }
 

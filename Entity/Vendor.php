@@ -49,7 +49,6 @@ class Vendor
     protected $label;
 
     /**
-     *
      * @var string
      * 
      * @ORM\Column

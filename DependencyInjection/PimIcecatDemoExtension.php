@@ -31,6 +31,7 @@ class PimIcecatDemoExtension extends Extension
         $loader->load('form_types.yml');
         $loader->load('orm_filter_types.yml');
         $loader->load('transformers.yml');
+        $loader->load('processors.yml');
         $loader->load('entities.yml');
     }
 }

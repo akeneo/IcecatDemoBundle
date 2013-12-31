@@ -1,9 +1,8 @@
 <?php
 namespace Pim\Bundle\IcecatDemoBundle\AttributeType;
 
-use Oro\Bundle\FlexibleEntityBundle\Model\AbstractAttribute;
-use Oro\Bundle\FlexibleEntityBundle\AttributeType\AbstractAttributeType;
-use Oro\Bundle\FlexibleEntityBundle\Model\FlexibleValueInterface;
+use Pim\Bundle\FlexibleEntityBundle\AttributeType\AbstractAttributeType;
+use Pim\Bundle\FlexibleEntityBundle\Model\FlexibleValueInterface;
 
 /**
  * Vendor attribute type

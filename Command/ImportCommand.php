@@ -39,7 +39,7 @@ class ImportCommand extends ContainerAwareCommand
     }
     protected function getOrderedJobInstanceCodes()
     {
-        $jobInstanceCodes = array('initial_category_import');
+        $jobInstanceCodes = array();
         $productFiles = glob(sprintf('%s/products/*.csv', $this->getContainer()->getParameter('pim_icecatdemo.import_dir')));
         foreach ($productFiles as $file) {
             $jobInstanceCodes[] = sprintf('initial_product_import_%s', basename($file, '.csv'));

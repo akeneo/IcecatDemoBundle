@@ -18,39 +18,31 @@ class LoadImportProfiles extends ContainerAwareFixture implements FixtureInterfa
     public function load(ObjectManager $manager)
     {
         $importDir = $this->container->getParameter('pim_icecatdemo.import_dir');
-        $this->loadJobInstance(
-            $manager,
-            'category_import',
-            'initial_category_import',
-            'Initial category import',
-            sprintf('%s/%s', $importDir, 'categories.csv')
-        );
         $productFiles = glob(sprintf('%s/products/*.csv', $importDir));
+        $registry = $this->getFixtureConfigurationRegistry();
+        $file = __DIR__ . '/../../Resources/fixtures/icecat_demo/jobs.yml';
+        $reader = $registry->getReader('jobs', 'yml');
+        $reader->setFilePath($file);
+        while ($data = $reader->read()) {
+            if ('csv_product_import' === $data['code']) {
+                break;
+            }
+        }
+        $processor = $registry->getProcessor('jobs', 'yml');
         foreach ($productFiles as $file) {
-            $jobInstanceCode = basename($file, '.csv');
-            $this->loadJobInstance(
-                $manager,
-                'product_import',
-                sprintf('initial_product_import_%s', $jobInstanceCode),
-                sprintf('Initial product import %s', $jobInstanceCode),
-                $file
-            );
+            $data['code'] = 'initial_product_import_' . basename($file, '.csv');
+            $data['configuration']['filePath'] = $file;
+            $jobInstance = $processor->process($data);
+            $manager->persist($jobInstance);
         }
         $manager->flush();
     }
-    protected function loadJobInstance(ObjectManager $manager, $alias, $code, $label, $file, $channel = null)
-    {
-        $jobInstance = new JobInstance('Akeneo CSV Connector', 'import', $alias);
-        $connectorRegistry = $this->container->get('oro_batch.connectors');
-        $job = $connectorRegistry->getJob($jobInstance);
-        foreach($job->getSteps() as $step) {
-            $step->getReader()->setFilePath($file);
-        }
-        $jobInstance
-            ->setCode($code)
-            ->setLabel($label)
-            ->setJob($job);
-        $manager->persist($jobInstance);
 
+    /**
+     * @return \Pim\Bundle\InstallerBundle\FixtureLoader\ConfigurationRegistryInterface
+     */
+    protected function getFixtureConfigurationRegistry()
+    {
+        return $this->container->get('pim_installer.fixture_loader.configuration_registry');
     }
 }

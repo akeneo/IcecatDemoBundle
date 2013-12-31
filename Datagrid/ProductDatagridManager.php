@@ -3,8 +3,7 @@ namespace Pim\Bundle\IcecatDemoBundle\Datagrid;
 
 use Oro\Bundle\GridBundle\Field\FieldDescriptionInterface;
 use Pim\Bundle\CatalogBundle\Datagrid\ProductDatagridManager as PimProductDatagridManager;
-
-use Oro\Bundle\FlexibleEntityBundle\Model\AbstractAttribute;
+use Pim\Bundle\FlexibleEntityBundle\Model\AbstractAttribute;
 
 /**
  * Extends Product datagrid manager come from PIM

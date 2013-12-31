@@ -2,10 +2,12 @@
 
 namespace Pim\Bundle\IcecatDemoBundle\Entity;
 
+use DateTime;
 use Doctrine\ORM\Mapping as ORM;
+use Gedmo\Mapping\Annotation as Gedmo;
+use Pim\Bundle\CatalogBundle\Model\ReferableInterface;
 use Symfony\Bridge\Doctrine\Validator\Constraints\UniqueEntity;
 use Symfony\Component\Validator\Constraints as Assert;
-use Gedmo\Mapping\Annotation as Gedmo;
 
 /**
  * Vendor entity
@@ -13,14 +15,14 @@ use Gedmo\Mapping\Annotation as Gedmo;
  * @author    Antoine Guigan <antoine@akeneo.com>
  * @copyright 2013 Akeneo SAS (http://www.akeneo.com)
  * @license   http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
- * @ORM\Entity
+ * @ORM\Entity(repositoryClass="Pim\Bundle\CatalogBundle\Entity\Repository\ReferableEntityRepository")
  * @ORM\Table(
  *     name="pim_icecatdemo_vendor",
  *     uniqueConstraints={@ORM\UniqueConstraint(name="pim_icecatdemo_vendor_code", columns={"code"})}
  * )
  * @UniqueEntity(fields="code", message="This code is already taken")
  */
-class Vendor
+class Vendor implements ReferableInterface
 {
     /**
      * @var integer $id
@@ -149,7 +151,7 @@ class Vendor
         /**
      * Set created
      *
-     * @param  \DateTime $created
+     * @param  DateTime $created
      * @return Domain
      */
     public function setCreated($created)
@@ -162,7 +164,7 @@ class Vendor
     /**
      * Get created
      *
-     * @return \DateTime
+     * @return DateTime
      */
     public function getCreated()
     {
@@ -172,7 +174,7 @@ class Vendor
     /**
      * Set updated
      *
-     * @param  \DateTime $updated
+     * @param  DateTime $updated
      * @return Domain
      */
     public function setUpdated($updated)
@@ -185,7 +187,7 @@ class Vendor
     /**
      * Get updated
      *
-     * @return \DateTime
+     * @return DateTime
      */
     public function getUpdated()
     {
@@ -196,6 +198,14 @@ class Vendor
      * {@inheritdoc}
      */
     public function __toString()
+    {
+        return $this->code;
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function getReference()
     {
         return $this->code;
     }

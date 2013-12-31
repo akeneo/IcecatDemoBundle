@@ -14,7 +14,7 @@ WARNING: the contents of your database will be replaced
     php app/console doctrine:fixtures:load --append --fixtures=src/Pim/Bundle/IcecatDemoBundle/DataFixtures/
     php app/console cache:clear --env=prod
     php app/console pim:icecat-demo:import --env=prod
-    php app/console pim:product:completeness-calculator --env=prod
+    php app/console pim:completeness:calculate --env=prod
     php app/console pim:versioning:refresh --env=prod
 
 

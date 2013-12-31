@@ -7,13 +7,11 @@ attributes:
             de_DE: SKU
         type: pim_catalog_identifier
         group: marketing
-        description: 'product sku'
-        parameters:
-            required: true
-            unique: true
-            useableAsGridColumn: true
-            useableAsGridFilter: true
-            sortOrder: 1
+        required: true
+        unique: true
+        useableAsGridColumn: true
+        useableAsGridFilter: true
+        sortOrder: 1
     name:
         labels:
             default: Name
@@ -21,12 +19,10 @@ attributes:
             fr_FR: Nom
             de_DE: Name
         type: pim_catalog_text
-        description: 'product name'
         group: marketing
-        parameters:
-            useableAsGridColumn: true
-            useableAsGridFilter: true
-            sortOrder: 2
+        useableAsGridColumn: true
+        useableAsGridFilter: true
+        sortOrder: 2
     description:
         labels:
             default: Description
@@ -34,12 +30,10 @@ attributes:
             fr_FR: Description
             de_DE: Beschreibung
         type: pim_catalog_textarea
-        description: 'product name'
         group: marketing
-        parameters:
-            translatable: true
-            scopable: true
-            sortOrder: 3
+        translatable: true
+        scopable: true
+        sortOrder: 3
     weight:
         labels:
             default: Weight
@@ -47,13 +41,11 @@ attributes:
             fr_FR: Poids
             de_DE: Gewicht
         type: pim_catalog_metric
-        description: 'product weight'
         group: technical
-        parameters:
-            sortOrder: 4
-            metricFamily: Weight
-            defaultMetricUnit: KILOGRAM
-            decimalsAllowed: true
+        sortOrder: 4
+        metricFamily: Weight
+        defaultMetricUnit: KILOGRAM
+        decimalsAllowed: true
     maximum_scan_size:
         labels:
             default: 'Maximum scan size'
@@ -61,45 +53,37 @@ attributes:
             fr_FR: 'Surface maximal de numérisation'
             de_DE: 'Maximale Scan-Abmessung'
         type: pim_catalog_metric
-        description: 'product weight'
         group: technical
-        parameters:
-            sortOrder: 5
-            metricFamily: Length
-            defaultMetricUnit: MILLIMETER
+        sortOrder: 5
+        metricFamily: Length
+        defaultMetricUnit: MILLIMETER
     color_scanning:
         labels:
             en_US: 'Color scanning'
             fr_FR: 'Numérisation couleur'
             de_DE: Farbscannen
         type: pim_catalog_boolean
-        description: 'color scanning'
         group: technical
-        parameters:
-            useableAsGridFilter: true
-            sortOrder: 6
+        useableAsGridFilter: true
+        sortOrder: 6
     power_requirements:
         labels:
             en_US: 'Power requirements'
             fr_FR: 'Exigences d''alimentation'
             de_DE: Energiebedarf
         type: pim_catalog_text
-        description: 'power requirements'
         group: technical
-        parameters:
-            useableAsGridFilter: true
-            sortOrder: 7
+        useableAsGridFilter: true
+        sortOrder: 7
     maximum_print_size:
         labels:
             en_US: 'Maximum print size'
             fr_FR: 'Format d’impression maximale'
             de_DE: 'Maximale Druckgröße'
         type: pim_catalog_simpleselect
-        description: 'power requirements'
         group: technical
-        parameters:
-            useableAsGridFilter: true
-            sortOrder: 8
+        useableAsGridFilter: true
+        sortOrder: 8
         options:
             210-x-1219-mm:
                 code: 210-x-1219-mm
@@ -137,11 +121,9 @@ attributes:
             fr_FR: 'Type de capteur'
             de_DE: CCD-Bildsensor
         type: pim_catalog_simpleselect
-        description: 'sensor type'
         group: technical
-        parameters:
-            useableAsGridFilter: true
-            sortOrder: 9
+        useableAsGridFilter: true
+        sortOrder: 9
         options:
             ccd:
                 code: ccd
@@ -155,48 +137,40 @@ attributes:
             fr_FR: 'Total des megapixels'
             de_DE: 'Total megapixels'
         type: pim_catalog_text
-        description: 'total megapixels'
         group: technical
-        parameters:
-            useableAsGridFilter: false
-            sortOrder: 10
-            decimalsAllowed: true
-            negativeAllowed: false
+        useableAsGridFilter: false
+        sortOrder: 10
+        decimalsAllowed: true
+        negativeAllowed: false
     optical_zoom:
         labels:
             en_US: 'Optical zoom'
             fr_FR: 'Zoom optique'
             de_DE: 'Optischer Zoom'
         type: pim_catalog_number
-        description: 'optical zoom'
         group: technical
-        parameters:
-            useableAsGridFilter: false
-            sortOrder: 11
-            decimalsAllowed: true
-            negativeAllowed: false
+        useableAsGridFilter: false
+        sortOrder: 11
+        decimalsAllowed: true
+        negativeAllowed: false
     image_stabilizer:
         labels:
             en_US: 'Image stabilizer'
             fr_FR: 'Stabilisateur d''image'
             de_DE: Bildstabilisator
         type: pim_catalog_boolean
-        description: 'Image stabilizer'
         group: technical
-        parameters:
-            useableAsGridFilter: true
-            sortOrder: 12
+        useableAsGridFilter: true
+        sortOrder: 12
     camera_type:
         labels:
             en_US: 'Camera type'
             fr_FR: 'Type d''appareil photo'
             de_DE: Kamera-Typ
         type: pim_catalog_simpleselect
-        description: 'Camera type'
         group: technical
-        parameters:
-            useableAsGridFilter: true
-            sortOrder: 13
+        useableAsGridFilter: true
+        sortOrder: 13
         options:
             bridge:
                 code: bridge
@@ -222,37 +196,31 @@ attributes:
             fr_FR: 'DHT, distorsion harmonique totale'
             de_DE: 'THD, totalklirren'
         type: pim_catalog_number
-        description: 'Total Harmonic Distortion (THD)'
         group: technical
-        parameters:
-            useableAsGridFilter: false
-            sortOrder: 14
-            decimalsAllowed: false
-            negativeAllowed: false
+        useableAsGridFilter: false
+        sortOrder: 14
+        decimalsAllowed: false
+        negativeAllowed: false
     snr:
         labels:
             en_US: 'Signal-to-Noise Ratio (SNR)'
             fr_FR: 'Rapport de signal-à-bruit'
             de_DE: 'Signal-zu-Geräusche Verhältnis (SNR)'
         type: pim_catalog_number
-        description: 'Signal-to-Noise Ratio (SNR)'
         group: technical
-        parameters:
-            useableAsGridFilter: false
-            sortOrder: 21
-            decimalsAllowed: false
-            negativeAllowed: false
+        useableAsGridFilter: false
+        sortOrder: 21
+        decimalsAllowed: false
+        negativeAllowed: false
     headphone_connectivity:
         labels:
             en_US: 'Headphone connectivity'
             fr_FR: Casque
             de_DE: Kopfhörerausgang
         type: pim_catalog_simpleselect
-        description: 'Headphone connectivity'
         group: technical
-        parameters:
-            useableAsGridFilter: true
-            sortOrder: 16
+        useableAsGridFilter: true
+        sortOrder: 16
         options:
             6-3mm:
                 code: 6-3mm
@@ -263,11 +231,9 @@ attributes:
             fr_FR: 'Résolution vidéo maximale'
             de_DE: 'Maximale Video-Auflösung'
         type: pim_catalog_simpleselect
-        description: 'Maximum video resolution'
         group: technical
-        parameters:
-            useableAsGridFilter: true
-            sortOrder: 17
+        useableAsGridFilter: true
+        sortOrder: 17
         options:
             1280-x-1024:
                 code: 1280-x-1024
@@ -305,24 +271,20 @@ attributes:
             fr_FR: 'Cadence maximale'
             de_DE: 'Maximale Bildfrequenz'
         type: pim_catalog_number
-        description: 'Signal-to-Noise Ratio (SNR)'
         group: technical
-        parameters:
-            useableAsGridFilter: false
-            sortOrder: 18
-            decimalsAllowed: false
-            negativeAllowed: false
+        useableAsGridFilter: false
+        sortOrder: 18
+        decimalsAllowed: false
+        negativeAllowed: false
     multifunctional_functions:
         labels:
             en_US: 'All-in-one functions'
             fr_FR: 'Fonctions tout-en-un'
             de_DE: 'Functies all-in-one'
         type: pim_catalog_multiselect
-        description: 'All-in-one functions'
         group: technical
-        parameters:
-            useableAsGridFilter: true
-            sortOrder: 19
+        useableAsGridFilter: true
+        sortOrder: 19
         options:
             copy:
                 code: copy
@@ -345,106 +307,88 @@ attributes:
             fr_FR: 'Temps de réponse (ms)'
             de_DE: Erscheinungstermin
         type: pim_catalog_number
-        description: 'Response time (ms)'
         group: marketing
-        parameters:
-            useableAsGridFilter: true
-            sortOrder: 20
+        useableAsGridFilter: true
+        sortOrder: 20
     display_srgb:
         labels:
             en_US: 'Display sRGB'
             fr_FR: sRGB
             de_DE: sRGB
         type: pim_catalog_boolean
-        description: 'Display sRGB'
         group: technical
-        parameters:
-            useableAsGridFilter: true
-            sortOrder: 22
+        useableAsGridFilter: true
+        sortOrder: 22
     display_color:
         labels:
             en_US: Color
             fr_FR: Couleur
             de_DE: Farbe
         type: pim_catalog_boolean
-        description: Color
         group: technical
-        parameters:
-            useableAsGridFilter: true
-            sortOrder: 23
-            decimalsAllowed: true
+        useableAsGridFilter: true
+        sortOrder: 23
+        decimalsAllowed: true
     display_diagonal:
         labels:
             en_US: 'Display diagonal'
             fr_FR: 'Taille de l''écran'
             de_DE: Bildschirmdiagonale
         type: pim_catalog_metric
-        description: 'Effective viewing area'
         group: technical
-        parameters:
-            useableAsGridFilter: false
-            sortOrder: 24
-            metricFamily: Length
-            defaultMetricUnit: INCH
+        useableAsGridFilter: false
+        sortOrder: 24
+        metricFamily: Length
+        defaultMetricUnit: INCH
     release_date:
         labels:
             en_US: 'Release date'
             fr_FR: 'Date de sortie'
             de_DE: Erscheinungstermin
         type: pim_catalog_date
-        description: 'Release date'
         group: marketing
-        parameters:
-            useableAsGridFilter: true
-            sortOrder: 25
+        useableAsGridFilter: true
+        sortOrder: 25
     viewing_area:
         labels:
             en_US: 'Effective viewing area'
             fr_FR: 'Zone d''affichage active'
             de_DE: 'Effektive Bildfläche'
         type: pim_catalog_metric
-        description: 'Effective viewing area'
         group: technical
-        parameters:
-            useableAsGridFilter: false
-            sortOrder: 24
-            metricFamily: Length
-            defaultMetricUnit: MILLIMETER
+        useableAsGridFilter: false
+        sortOrder: 24
+        metricFamily: Length
+        defaultMetricUnit: MILLIMETER
     price:
         labels:
             en_US: Price
             fr_FR: Prix
             de_DE: Preis
         type: pim_catalog_price_collection
-        description: Price
         group: marketing
-        parameters:
-            useableAsGridFilter: true
-            useableAsGridColumn: true
-            sortOrder: 25
-            decimalsAllowed: true
+        useableAsGridFilter: true
+        useableAsGridColumn: true
+        sortOrder: 25
+        decimalsAllowed: true
     vendor:
         labels:
             en_US: Vendor
             fr_FR: Fournisseur
             de_DE: Anbieter
         type: pim_icecatdemo_vendor
-        description: Picture
         group: marketing
-        parameters:
-            useableAsGridFilter: true
-            useableAsGridColumn: true
-            sortOrder: 26
+        useableAsGridFilter: true
+        useableAsGridColumn: true
+        sortOrder: 26
     picture:
         labels:
             en_US: Picture
             fr_FR: Photographie
             de_DE: Photography
         type: pim_catalog_image
-        description: Picture
         group: marketing
-        parameters:
-            useableAsGridFilter: false
-            useableAsGridColumn: false
-            sortOrder: 27
-            allowedExtensions: 'jpg,jpeg,gif'
+        useableAsGridFilter: false
+        useableAsGridColumn: false
+        sortOrder: 27
+        allowedExtensions: 'jpg,jpeg,gif'

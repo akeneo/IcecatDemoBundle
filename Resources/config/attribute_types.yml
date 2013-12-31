@@ -6,4 +6,6 @@ services:
                 - "entity"
                 - @pim_flexibleentity.validator.attribute_constraint_guesser
             tags:
-                - { name: pim_flexibleentity.attributetype, alias: pim_icecatdemo_vendor }
+                - name: pim_flexibleentity.attributetype
+                  alias: pim_icecatdemo_vendor
+                  entity: %pim_catalog.entity.product.class%

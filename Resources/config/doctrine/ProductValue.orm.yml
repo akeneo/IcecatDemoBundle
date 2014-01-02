@@ -1,4 +1,4 @@
-Pim\Bundle\IcecatDemoBundle\Model\ProductValue:
+Pim\Bundle\IcecatDemoBundle\Entity\ProductValue:
     type: entity
     table: pim_icecat_product_value
     indexes:

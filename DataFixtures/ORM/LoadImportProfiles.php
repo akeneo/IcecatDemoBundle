@@ -18,7 +18,7 @@ class LoadImportProfiles extends ContainerAwareFixture implements FixtureInterfa
     public function load(ObjectManager $manager)
     {
         $importDir = $this->container->getParameter('pim_icecatdemo.import_dir');
-        $productFiles = glob(sprintf('%s/products/*.csv', $importDir));
+        $productFiles = glob(sprintf('%s/*.csv', $importDir));
         $registry = $this->getFixtureConfigurationRegistry();
         $file = __DIR__ . '/../../Resources/fixtures/icecat_demo/jobs.yml';
         $reader = $registry->getReader('jobs', 'yml');

@@ -20,7 +20,7 @@ Add the following line inside the `app/AppKernel.php` file:
 Loading the data
 ----------------
     ./install.sh db
-    php app/console doctrine:fixtures:load --append --fixtures=src/Pim/Bundle/IcecatDemoBundle/DataFixtures/
+    php app/console doctrine:fixtures:load --append --fixtures=vendor/akeneo/icecat-demo-bundle/Pim/Bundle/IcecatDemoBundle/DataFixtures/
     php app/console cache:clear --env=prod
     php app/console pim:icecat-demo:import --env=prod
     php app/console pim:completeness:calculate --env=prod

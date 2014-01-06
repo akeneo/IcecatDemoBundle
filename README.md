@@ -11,7 +11,7 @@ Installing the bundle
 ---------------------
 From your application root:
 
-    $ php composer.phar require --prefer-dist "akeneo/icecat-demo-bundle=dev-master
+    $ php composer.phar require --prefer-dist "akeneo/icecat-demo-bundle=dev-master"
 
 Add the following line inside the `app/AppKernel.php` file:
 

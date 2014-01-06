@@ -17,6 +17,10 @@ Add the following line inside the `app/AppKernel.php` file:
 
     new Pim\\Bundle\\IcecatDemoBundle\\PimIcecatDemoBundle(),
 
+Define the data used by the installer in the parameters.yml file:
+
+    installer_data: 'PimIcecatDemoBundle:icecat_demo'
+
 Loading the data
 ----------------
     ./install.sh db

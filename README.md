@@ -15,7 +15,7 @@ From your application root:
 
 Add the following line inside the `app/AppKernel.php` file:
 
-    new Pim\\Bundle\\IcecatDemoBundle\\PimIcecatDemoBundle(),
+    new Pim\Bundle\IcecatDemoBundle\PimIcecatDemoBundle(),
 
 Define the data used by the installer in the parameters.yml file:
 

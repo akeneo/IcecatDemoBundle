@@ -13,9 +13,9 @@ From your application root:
 
     $ php composer.phar require --prefer-dist "akeneo/icecat-demo-bundle=dev-master"
 
-Add the following line inside the `app/AppKernel.php` file, just before the "return $bundles;" line:
+Register the bundle by adding the following line inside the `app/AppKernel.php` file, just before the "return $bundles;" line:
 
-    new Pim\Bundle\IcecatDemoBundle\PimIcecatDemoBundle(),
+    $bundles[] = new Pim\Bundle\IcecatDemoBundle\PimIcecatDemoBundle();
 
 Define the data used by the installer in the parameters.yml file:
 

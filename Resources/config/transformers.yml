@@ -5,6 +5,6 @@ services:
             - '@pim_import_export.entity_cache'
         public: false
         tags:
-            - name: pim_import_export.transformer.product.attribute
+            - name: pim_import_export.transformer.attribute
               backend_type: vendor
               class: PimIcecatDemoBundle:Vendor

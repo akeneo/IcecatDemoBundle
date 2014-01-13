@@ -1,6 +1,7 @@
 parameters:
     pim_catalog.datagrid.manager.product.class: Pim\Bundle\IcecatDemoBundle\Datagrid\ProductDatagridManager
     pim_catalog.datagrid.manager.association_product_datagrid.class: Pim\Bundle\IcecatDemoBundle\Datagrid\AssociationProductDatagridManager
+    pim_catalog.datagrid.manager.group_product_datagrid.class: Pim\Bundle\IcecatDemoBundle\Datagrid\GroupProductDatagridManager
     pim_icecatdemo.datagrid.manager.vendor.class: Pim\Bundle\IcecatDemoBundle\Datagrid\VendorDatagridManager
 
 services:

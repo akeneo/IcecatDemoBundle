@@ -387,7 +387,7 @@ attributes:
             fr_FR: Photographie
             de_DE: Photography
         type: pim_catalog_image
-        group: marketing
+        group: media
         useableAsGridFilter: false
         useableAsGridColumn: false
         sortOrder: 27

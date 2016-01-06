@@ -1,6 +1,8 @@
 Akeneo PIM Icecat Demo Bundle
 =============================
 
+**This bundle is deprecated and can't be used with recent versions of Akeneo PIM**
+
 This bundle contains real world data coming from the Icecat databases.
 
 To install the demo data, use the following commands :
